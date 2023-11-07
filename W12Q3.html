@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="image" src="images/little-stray-kitten-playing-grass_73164-806.jpg.avif">
+    <script>
+        var img = document.getElementById("image");
+        img.addEventListener("mouseover", function(){
+            load(img);
+        });
+        img.addEventListener("mouseout", function() {
+            unload(img);
+        
+        });
+        function load(img){
+            img.src = "images/1324bc875a578e2d3eb0dd0032815e86.jpg";
+        }
+        function unload(img){
+            img.src = "images/little-stray-kitten-playing-grass_73164-806.jpg.avif";
+        }
+    </script>
+</body>
+</html>

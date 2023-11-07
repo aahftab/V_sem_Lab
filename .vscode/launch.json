@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "Java_2962d18a"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "W11Q3.Main",
+            "projectName": "Java_8d6c8db"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "W11Q1_2.Main",
+            "projectName": "Java_8d6c8db"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "W9Q2.Main",
+            "projectName": "Java_8d6c8db"
+        },
+        {
+            "type": "java",
+            "name": "Edible",
+            "request": "launch",
+            "mainClass": "W10Q1Nested.Edible",
+            "projectName": "Java_8d6c8db"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "W10Q1StaticPolimorphism.Main",
+            "projectName": "Java_8d6c8db"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_8d6c8db"
+        },
+        {
+            "type": "java",
+            "name": "Person",
+            "request": "launch",
+            "mainClass": "W10Q1Nested.Person",
+            "projectName": "Java_8d6c8db"
+        },
+        {
+            "type": "java",
+            "name": "W7Q1",
+            "request": "launch",
+            "mainClass": "W7Q1",
+            "projectName": "Java_8d6c8db"
+        },
+        {
+            "type": "java",
+            "name": "W7Q2",
+            "request": "launch",
+            "mainClass": "W7Q2",
+            "projectName": "Java_8d6c8db"
+        },
+        {
+            "type": "java",
+            "name": "Largest",
+            "request": "launch",
+            "mainClass": "Largest",
+            "projectName": "untitled folder_8e7f77c1"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "W9Q2Abstract.main",
+            "projectName": "untitled folder_8e7f77c1"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "W9Q1Static.main",
+            "projectName": "untitled folder_8e7f77c1"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "W9Q2.main",
+            "projectName": "untitled folder_8e7f77c1"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "W9.main",
+            "projectName": "untitled folder_8e7f77c1"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "untitled folder_8e7f77c1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "W7Q1",
+            "request": "launch",
+            "mainClass": "W7Q1",
+            "projectName": "untitled folder_8e7f77c1"
+        },
+        {
+            "type": "java",
+            "name": "W7Q2",
+            "request": "launch",
+            "mainClass": "W7Q2",
+            "projectName": "untitled folder_8e7f77c1"
+        },
+        {
+            "type": "java",
+            "name": "W7Q3",
+            "request": "launch",
+            "mainClass": "W7Q3",
+            "projectName": "untitled folder_8e7f77c1"
+        },
+        {
+            "type": "java",
+            "name": "W7Q4",
+            "request": "launch",
+            "mainClass": "W7Q4",
+            "projectName": "untitled folder_8e7f77c1"
+        },
+        {
+            "type": "java",
+            "name": "W7Q5",
+            "request": "launch",
+            "mainClass": "W7Q5",
+            "projectName": "untitled folder_8e7f77c1"
+        }
+    ]
+}

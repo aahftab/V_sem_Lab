@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">Enter </label>
+    <input type="text" id="name" value="Victoria" name="name" placeholder="Enter your name">
+    <button onclick="submit()">Submit</button>
+    <button onclick="reset()">reset</button>
+    <script>
+        function submit() {
+            const name = document.getElementById("name").value;
+            localStorage.setItem("name", name);
+            window.open("welcome.html");
+        }
+
+        function reset() {
+            document.getElementById("name").value = "100"
+        }
+    </script>
+</body>
+</html>

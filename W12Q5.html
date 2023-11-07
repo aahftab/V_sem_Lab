@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+</head>
+<body>
+    <h2 id="greetings"></h2>
+    <h2 id="time"></h2>
+    <script>
+        var d = new Date();
+        var hr = d.getHours();
+        var greet = document.getElementById("greetings");
+        if(hr<12) {
+            greet.innerHTML = "Good Morning";
+        }
+        else if(hr<18) {
+            greet.innerHTML = "Good Afternoon";
+        }
+        else if(hr<22) {
+            greet.innerHTML = "Good Evening";
+        }
+        else {
+            greet.innerHTML = "Good Night";
+        }
+        document.getElementById("time").innerHTML = "" + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+    </script>
+</body>
+</html>
